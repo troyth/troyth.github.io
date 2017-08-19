@@ -6,8 +6,8 @@ $( document ).ready(function() {
       event.preventDefault();
       event.stopPropagation();
 
-      $target = $(this).parents('article');
-      $others = $target.siblings('p.header');
+      $target = $(this).parents('.container');
+      $others = $target.siblings('.container');
 
       $others.find('.content').slideUp();
 
