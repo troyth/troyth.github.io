@@ -9,6 +9,8 @@ $( document ).ready(function() {
       $target = $(this).parents('.container');
       $others = $target.siblings('.container');
 
+      console.info($others);
+
       $others.find('.content').slideUp();
 
       if($target.find('.content').is(':visible')) {
