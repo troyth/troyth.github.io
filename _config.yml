@@ -93,12 +93,6 @@ exclude:
 
 # Include collections
 collections:
-  - texts
-  - courses
-
-defaults:
-  - scope:
-      path: "/texts"
-      type: texts
-    values:
-      layout: text
+  texts:
+    output: true
+    permalink: /texts/:name/
