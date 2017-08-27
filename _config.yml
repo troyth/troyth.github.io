@@ -93,12 +93,8 @@ exclude:
 
 # Include collections
 collections:
-  texts
-    output: true
-    permalink: /:collection/:name
-  courses
-    output: true
-    permalink: /:collection/:name
+  - texts
+  - courses
 
 defaults:
   - scope:
