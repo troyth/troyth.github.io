@@ -90,3 +90,19 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# Include collections
+collections:
+  texts
+    output: true
+    permalink: /:collection/:name
+  courses
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: "/texts"
+      type: texts
+    values:
+      layout: text

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Prometheanity
+category: text
 ---
 
 "The computerization of everyday life has tethered us to the roller coaster of technological development and perhaps the only effect more pronounced than excitement is the anxiety it has spawned." \(Berlage Institute &amp; Het Nieuwe Instituut, lecture, Rotterdam, fall 2015 [📺](http://www.theberlage.nl/events/details/2015_10_30_prometheanity)\)
