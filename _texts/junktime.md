@@ -9,4 +9,4 @@ timing: November 2016
 co_authors: null
 ---
 
-"If 'Junkspace is what remains after modernization has run its course,' then Junktime is the mess digitization has made of temporality."
+"If 'Junkspace is what remains after modernization has run its course,' then Junktime is the mess digitization has made of temporality..."
