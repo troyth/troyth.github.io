@@ -95,4 +95,3 @@ exclude:
 collections:
   texts:
     output: true
-    permalink: /texts/:name/

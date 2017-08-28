@@ -1,15 +1,9 @@
 ---
-layout: default
+layout: page
 title: Texts
 ---
-
-{% for texts in site.texts %}
-
-
-<a href="{{ texts.url | prepend: site.baseurl }}">
-        <h2>{{ texts.title }}</h2>
-</a>
-
-<p class="post-excerpt">{{ texts.description | truncate: 160 }}</p>
-
-{% endfor %}   
+{% for text in site.texts %}
+	<div class="text">
+		<h2><a href="{{ text.url }}">{{ text.title }}</a></h2>
+	</div>
+{% endfor %}
