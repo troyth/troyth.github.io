@@ -47,8 +47,11 @@
     <div class="container">
       <p class="header"><a href="">texts:</a></p>
       <div class="content">
-        testing
-        {{ site.texts }}
+        {% for text in site.texts %}
+        	<div class="text">
+        		<h2><a href="{{ text.url }}">{{ text.title }}</a></h2>
+        	</div>
+        {% endfor %}
       </div>
     </div>
 
