@@ -3,7 +3,7 @@ layout: text
 title: Social Soup
 pub: Ed
 pub_link: null
-date: forthcoming
+timing: forthcoming
 co_authors: null
 ---
 

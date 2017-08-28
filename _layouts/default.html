@@ -48,7 +48,7 @@
       <p class="header"><a href="">texts:</a></p>
       <div class="content">
         {% for text in site.texts %}
-          <h2>{{ text.title}} (<em>{% if text.pub_link != null %}<a href="{{ text.pub_link}}" targt="_blank">{{ text.pub }}</a>{% else %}{{ text.pub }}{% endif %}</em>, {{ text.date }})</h2>
+          <h2>{{ text.title}} (<em>{% if text.pub_link != null %}<a href="{{ text.pub_link}}" targt="_blank">{{ text.pub }}</a>{% else %}{{ text.pub }}{% endif %}</em>, {{ text.timing }})</h2>
           <div class="blurb">
             {{ text.content }}
           </div>
