@@ -4,6 +4,7 @@ title: Social Soup
 type: essay
 pub: Ed
 pub_link: null
+pdf_link: null
 timing: forthcoming
 co_authors: null
 ---
