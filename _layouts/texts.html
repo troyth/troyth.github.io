@@ -1,11 +1,7 @@
 ---
 layout: page
-title: texts
 ---
-
-  {% for text in site.texts %}
-    <div class="text">
-      <h2>{{ text.title }}</h2>
-      {{ text.content }}
-    </div>
-  {% endfor %}
+<div class="text">
+  <h2>{{ page.title }}</h2>
+  {{ content }}
+</div>
