@@ -1,6 +1,7 @@
 ---
 layout: text
 title: Social Soup
+type: essay
 pub: Ed
 pub_link: null
 timing: forthcoming
