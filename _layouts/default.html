@@ -49,7 +49,7 @@
       <div class="content">
         {% for text in site.texts %}
           <div class="text">
-            <p>{% if text.type == "essay" %}“{% endif %}{{ text.title }}{% if text.type == "essay" %}”{% endif %} (<em>{% if text.pub_link != null %}<a href="{{ text.pub_link}}" targt="_blank">{{ text.pub }}</a>{% else %}{{ text.pub }}{% endif %}</em>, {{ text.timing }})</p>
+            <p>{{ text.title }} (<em>{% if text.pub_link != null %}<a href="{{ text.pub_link}}" targt="_blank">{{ text.pub }}</a>{% else %}{{ text.pub }}{% endif %}</em>, {{ text.timing }})</p>
             <div class="blurb">
               {{ text.content }}
             </div>
