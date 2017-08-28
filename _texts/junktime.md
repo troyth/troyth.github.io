@@ -2,7 +2,7 @@
 layout: text
 title: Junktime
 type: book
-pub: After Belonging Objects, Spaces, and Territories of the Ways We Stay in Transit
+pub: After Belonging\: Objects, Spaces, and Territories of the Ways We Stay in Transit
 pub_link: www.amazon.com/After-Belonging-Objects-Territories-Transit/dp/3037785209
 pdf_link: view.publitas.com/p222-9556/troy-therrien-junktime/page/1
 timing: November 2016
