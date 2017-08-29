@@ -1,6 +1,6 @@
 ---
 layout: text
-title: “Social Soup”
+title: Social Soup
 type: essay
 pub: Ed
 pub_link: null
