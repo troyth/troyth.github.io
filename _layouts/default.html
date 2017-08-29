@@ -49,21 +49,10 @@
       <div class="content">
         {% for text in site.texts %}
           <div class="text">
-            <p>
-              <span>{% if text.type == "essay" %}“{% endif %}{{ text.title }}{% if text.type == "essay" %}”{% endif %}</span>
-              (
-                <em>
-                  {% if text.pub_link != null %}<a href="{{ text.pub_link}}" targt="_blank">{% endif %}
-                  {{ text.pub }}
-                  {% if text.pub_link != null %}</a>{% endif %}
-                  {{ text.pub }}
-                  {% if text.pub_sub != null %}:{{ text.pub_sub }}{% endif %}
-                </em>
-                <span>, {{ text.timing }}</span>
-              )
-            </p>
+            <p>{% if text.type == "essay" %}“{% endif %}{{ text.title }}{% if text.type == "essay" %}”{% endif %}</p>
             <div class="blurb">
               {{ text.content }}
+              (<em>{% if text.pub_link != null %}<a href="{{ text.pub_link}}" targt="_blank">{% endif %}{{ text.pub }}{% if text.pub_link != null %}</a>{% endif %}{% if text.pub_sub != null %}:{{ text.pub_sub }}{% endif %}</em>, {{ text.timing }})
             </div>
           </div><!-- /.text -->
         {% endfor %}
